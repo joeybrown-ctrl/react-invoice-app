@@ -6,9 +6,11 @@ const ref = React.createRef();
 const PDF = (props) => {
     return(
         <div>
-            <div className="Form">
-                <h3>{props.username}</h3>
-                <p>{props.cost}</p>
+            <div className="Form" ref={ref}>
+                <h3>{props.client}</h3>
+                <p>{props.email}</p>
+                <p>{props.service}</p>
+                <p>{props.price}</p>
             </div>
             <Pdf targetRef={ref} filename="form.pdf">
                 {({ toPdf }) => <button onClick={toPdf}>Capture as PDF</button>}
