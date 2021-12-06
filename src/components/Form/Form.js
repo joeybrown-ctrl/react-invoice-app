@@ -1,5 +1,6 @@
 import React,  { Component } from "react";
-import PDF from './PDF';
+import PDF from '../PDF/PDF';
+import './Form.css';
 
 
 class Form extends Component {
@@ -36,23 +37,29 @@ class Form extends Component {
                 (<div>
                     <form>
                         <fieldset>
-                            <legend>
                                 <div>
+                                    <p>Client:</p>
                                     <input onChange={this.onChange('client')} name="client" type="text" placeholder="Enter client name"></input>
                                 </div>
+                                <hr/>
                                 <div>
-                                    <input onChange={this.onChange('email')} name="email" type="text" placeholder="Enter client email"></input>
+                                    <p>Email:</p>
+                                    <input onChange={this.onChange('email')} name="email" type="email" placeholder="Enter client email"></input>
                                 </div>
+                                <hr/>
                                 <div>
+                                    <p>Service Rendered:</p>
                                     <input onChange={this.onChange('service')} name="service" type="text" placeholder="Service rendered"></input>
                                 </div>
+                                <hr/>
                                 <div>
+                                    <p>Price:</p>
                                     <input onChange={this.onChange('price')} name="price" type="text" placeholder="Enter price"></input>
                                 </div>
+                                <hr/>
                                 <div>
                                     <button type="button" onClick={this.submitForm}>Submit</button>
                                 </div>
-                            </legend>
                         </fieldset>
                     </form>
                 </div>) : (
