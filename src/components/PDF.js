@@ -14,6 +14,7 @@ const PDF = (props) => {
             </div>
             <Pdf targetRef={ref} filename="form.pdf">
                 {({ toPdf }) => <button onClick={toPdf}>Capture as PDF</button>}
+                {/* <div style={{width: 500, height: 500, background: 'blue'}} ref={ref}/> */}
             </Pdf>
         </div>
     )
