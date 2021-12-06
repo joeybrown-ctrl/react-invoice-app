@@ -38,23 +38,27 @@ class Form extends Component {
                     <form>
                         <fieldset>
                                 <div>
-                                    <p>Client:</p>
+                                    <label>Client:
                                     <input onChange={this.onChange('client')} name="client" type="text" placeholder="Enter client name"></input>
+                                    </label>
                                 </div>
                                 <hr/>
                                 <div>
-                                    <p>Email:</p>
+                                    <label>Email:
                                     <input onChange={this.onChange('email')} name="email" type="email" placeholder="Enter client email"></input>
+                                    </label>
                                 </div>
                                 <hr/>
                                 <div>
-                                    <p>Service Rendered:</p>
+                                    <label>Service Rendered:
                                     <input onChange={this.onChange('service')} name="service" type="text" placeholder="Service rendered"></input>
+                                    </label>
                                 </div>
                                 <hr/>
                                 <div>
-                                    <p>Price:</p>
+                                    <label>Price:
                                     <input onChange={this.onChange('price')} name="price" type="text" placeholder="Enter price"></input>
+                                    </label>
                                 </div>
                                 <hr/>
                                 <div>
