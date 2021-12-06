@@ -1,13 +1,13 @@
 import React from 'react';
 import Form from './components/Form/Form';
+import PDF from './components/PDF/PDF';
+import { PDFViewer } from '@react-pdf/renderer'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h3>Invoice to PDF</h3>
-      <p>Enter information in each field and click submit to preview your PDF</p>
-      <Form />
+        <Form />
     </div>
   );
 }

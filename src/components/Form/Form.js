@@ -1,4 +1,4 @@
-import React,  { Component } from "react";
+import React, { Component } from "react";
 import PDF from '../PDF/PDF';
 import './Form.css';
 
@@ -9,6 +9,7 @@ class Form extends Component {
         client: '',
         email: '',
         service: '',
+        date: '',
         price: '',
         formSubmitted: false
     }
@@ -20,7 +21,7 @@ class Form extends Component {
     }
 
     submitForm = (e) => {
-        if(!this.state.client || !this.state.email || !this.state.service || !this.state.price) {
+        if (!this.state.client || !this.state.email || !this.state.service || !this.state.price) {
             alert('All fields are required');
             e.preventDefault();
         } else {
@@ -30,45 +31,54 @@ class Form extends Component {
         }
     }
 
-    render(){
-        return(
+    render() {
+        return (
             <div>
-                { !this.state.formSubmitted ? 
-                (<div>
-                    <form>
-                        <fieldset>
+
+                {!this.state.formSubmitted ?
+                    (<div>
+                        <form>
+                            <h3>Invoice to PDF</h3>
+                            <p>Enter information in each field and click submit to preview your PDF</p>
+                            <fieldset>
                                 <div>
                                     <label>Client:
-                                    <input onChange={this.onChange('client')} name="client" type="text" placeholder="Enter client name"></input>
+                                        <input onChange={this.onChange('client')} name="client" type="text" placeholder="Enter client name"></input>
                                     </label>
                                 </div>
-                                <hr/>
+                                <hr />
                                 <div>
                                     <label>Email:
-                                    <input onChange={this.onChange('email')} name="email" type="email" placeholder="Enter client email"></input>
+                                        <input onChange={this.onChange('email')} name="email" type="email" placeholder="Enter client email"></input>
                                     </label>
                                 </div>
-                                <hr/>
+                                <hr />
                                 <div>
                                     <label>Service Rendered:
-                                    <input onChange={this.onChange('service')} name="service" type="text" placeholder="Service rendered"></input>
+                                        <input onChange={this.onChange('service')} name="service" type="text" placeholder="Service rendered"></input>
                                     </label>
                                 </div>
-                                <hr/>
+                                <hr />
+                                <div>
+                                    <label>Date:
+                                        <input onChange={this.onChange('service')} name="Date" type="date" placeholder="Enter date"></input>
+                                    </label>
+                                </div>
+                                <hr />
                                 <div>
                                     <label>Price:
-                                    <input onChange={this.onChange('price')} name="price" type="text" placeholder="Enter price"></input>
+                                        <input onChange={this.onChange('price')} name="price" type="text" placeholder="Enter price"></input>
                                     </label>
                                 </div>
-                                <hr/>
+                                <hr />
                                 <div>
                                     <button type="button" onClick={this.submitForm}>Submit</button>
                                 </div>
-                        </fieldset>
-                    </form>
-                </div>) : (
-                    <PDF client={this.state.client} email={this.state.email} service={this.state.service} price={this.state.price} />
-                )}
+                            </fieldset>
+                        </form>
+                    </div>) : (
+                        <PDF client={this.state.client} email={this.state.email} service={this.state.service} date={this.state.date} price={this.state.price} />
+                    )}
             </div>
         )
     }
