@@ -8,10 +8,12 @@
 
 ## What's this?
 
+<br>
+
 ![Image of React Invoice App]()
 <hr>
 
-Here is an invoice to PDF app I built using React. It starts with a form where the user can input information and once the user hits submit, they are shown a preview of their invoice. There is an option to capture a PDF, which downloads a PDF file of the invoice to the user's device. 
+Here is an invoice to PDF app I built using React. It starts with a form where the user can input information and once the submit button is clicked, they are shown a preview of their invoice. There is an option to capture a PDF, which downloads a PDF file of the invoice to the user's device. 
 
 <hr>
 
@@ -20,7 +22,7 @@ Here is an invoice to PDF app I built using React. It starts with a form where t
 ![Image of Invoice Preview]()
 <hr>
 
-I built a few different versions of this in node and one with a React component library before settling on simple React. I first built out the form page using class-based components but refactored using both the useState() and useRef() hooks from React. This app uses the React to PDF NPM package, which was both complicated and surprisingly simple once I got the hang of refs. All styling is done with plain CSS. The app is deployed to [Heroku](https://invoice-pdf-app.herokuapp.com/).
+I built a few different versions of this -- one in Node and one with a React component library -- before settling on simple React. I first built out the form page using class-based components but refactored using both the useState() and useRef() hooks from React. This app uses the React to PDF NPM package, which was both complicated and surprisingly simple once I got the hang of refs. All styling is done with plain CSS. The app is deployed to [Heroku](https://invoice-pdf-app.herokuapp.com/).
 
 <hr>
 
