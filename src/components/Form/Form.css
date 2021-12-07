@@ -21,7 +21,7 @@ form::before {
     height: 100%;
     width: 100%;
     z-index: -1;
-    background: grey;
+    background: #555555;;
     padding: 2.5rem 0.5rem;
     margin: auto;
 
@@ -40,12 +40,13 @@ input {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border-radius: 4px;
 }
 
 button {
     margin: 1em;
     border: none;
-    background: black;
+    background: steelblue;
     color: white;
     border-radius: 2px;
     cursor: pointer;
@@ -54,6 +55,12 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: darkgray; 
+    color: white;
 }
 
 
