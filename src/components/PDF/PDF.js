@@ -62,7 +62,7 @@ const PDF = (props) => {
                         </tr>
                         <tr className="total">
                             <td></td>
-                            <td>Total: {props.price}</td>
+                            <td>Total:  {props.price}</td>
                         </tr>
                     </table>
                 </div>
