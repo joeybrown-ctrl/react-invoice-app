@@ -6,7 +6,7 @@
 
 <br>
 
-## What's this?
+## What's This?
 
 <br>
 
@@ -17,7 +17,7 @@ Here is an invoice to PDF app I built using React. It starts with a form where t
 
 <hr>
 
-## The process
+## The Process
 
 <br>
 
@@ -36,7 +36,7 @@ I built a few different versions of this -- one in Node and one with a React com
 
 <hr>
 
-I plan to add a few changes, like sprucing up the invoice template and adding a select to the payment methods field in the form. I sent this to a buddy who owns a small business and he was pretty excited as he spends a lot of time creating invoices from scratch. I told him to shoot me the template he built using Adobe Illustrator and I'd recreate the app for him to help with this aspect of his business. 
+I plan to add a few changes, like sprucing up the invoice template and adding a select to the payment methods field in the form. I sent this to a buddy who owns a [small business](https://www.factory1971.com/) and he was pretty excited as he spends a lot of time creating invoices from scratch. I told him to shoot me the template he built using Adobe Illustrator and I'd recreate the app for him to help with this aspect of his business. 
 
 
 ## Built With
