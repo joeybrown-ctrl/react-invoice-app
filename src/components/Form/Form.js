@@ -41,46 +41,46 @@ const Form = (props) => {
                     (<div>
                         <form>
                             <h3>Invoice to PDF</h3>
-                            <p>Enter information in each field and click submit to preview your PDF</p>
+                            <p><em>Enter information in each field and click submit to preview your PDF</em></p>
                             <fieldset>
                                 <div>
-                                    <label>Client:
+                                    <label>Client: <br/>
                                         <input onChange={onChange('client')} name="client" type="text" placeholder="Enter Client Name"></input>
                                     </label>
                                 </div>
                                 <hr />
                                 <div>
-                                    <label>Email:
+                                    <label>Email: <br/>
                                         <input onChange={onChange('email')} name="email" type="email" placeholder="Enter Client Email"></input>
                                     </label>
                                 </div>
                                 <hr />
                                 <div>
-                                    <label>Date:
+                                    <label>Date: <br/>
                                         <input onChange={onChange('date')} name="Date" type="date" placeholder="Enter date"></input>
                                     </label>
                                 </div>
                                 <hr />
                                 <div>
-                                    <label>Service:
+                                    <label>Service: <br/>
                                         <input onChange={onChange('service')} name="service" type="text" placeholder="Service Rendered"></input>
                                     </label>
                                 </div>
                                 <hr />
                                 <div>
-                                    <label>Invoice Number:
+                                    <label>Invoice Number: <br/>
                                         <input onChange={onChange('invoice')} name="invoice" type="number" placeholder="Enter Invoice#"></input>
                                     </label>
                                 </div>
                                 <hr />
                                 <div>
-                                    <label>Payment Method:
+                                    <label>Payment Method: <br/>
                                         <input onChange={onChange('payment')} name="payment" type="text" placeholder="Card or Check?"></input>
                                     </label>
                                 </div>
                                 <hr />
                                 <div>
-                                    <label>Price:
+                                    <label>Price: <br/>
                                         <input onChange={onChange('price')} name="price" type="text" placeholder="Enter Price"></input>
                                     </label>
                                 </div>
