@@ -2,7 +2,7 @@
 
 **version 1.0.0**
 
-[For deployed version, click me](https://invoice-pdf-app.herokuapp.com/){:target="\_blank"}
+[For deployed version, click me](https://invoice-pdf-app.herokuapp.com/){:target="_blank"}
 
 <br>
 
@@ -24,7 +24,7 @@ Here is an invoice to PDF app I built using React. It starts with a form where t
 ![Image of Invoice Preview](https://github.com/joeybrown-ctrl/react-invoice-app/blob/main/src/images/pdf-capture.png)
 <hr>
 
-I built a few different versions of this -- one in Node and one with a React component library -- before settling on simple React. I first built out the form page using class-based components but refactored using both the useState() and useRef() hooks from React. This app uses the React to PDF NPM package, which was complicated at first and then surprisingly simple once I got the hang of refs. All styling is done with plain CSS. The app is deployed to [Heroku](https://invoice-pdf-app.herokuapp.com/){:target="\_blank"}.
+I built a few different versions of this -- one in Node and one with a React component library -- before settling on simple React. I first built out the form page using class-based components but refactored using both the useState() and useRef() hooks from React. This app uses the React to PDF NPM package, which was complicated at first and then surprisingly simple once I got the hang of refs. All styling is done with plain CSS. The app is deployed to [Heroku](https://invoice-pdf-app.herokuapp.com/){:target="_blank"}.
 
 <hr>
 
@@ -41,19 +41,19 @@ I plan to add a few changes, like sprucing up the invoice template and adding a 
 
 ## Built With
 
-* [React](https://reactjs.org/){:target="\_blank"}
-* [React Hooks](https://reactjs.org/docs/hooks-intro.html){:target="\_blank"}
-* [React to PDF](https://www.npmjs.com/package/react-to-pdf){:target="\_blank"}
-* [Heroku](https://www.heroku.com){:target="\_blank"}
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS){:target="\_blank"}
-* [HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5){:target="\_blank"}
-* [Markdown](https://guides.github.com/features/mastering-markdown/){:target="\_blank"}
-* [Google Fonts](https://fonts.google.com/){:target="\_blank"}
+* [React](https://reactjs.org/){:target="_blank"}
+* [React Hooks](https://reactjs.org/docs/hooks-intro.html){:target="_blank"}
+* [React to PDF](https://www.npmjs.com/package/react-to-pdf){:target="_blank"}
+* [Heroku](https://www.heroku.com){:target="_blank"}
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS){:target="_blank"}
+* [HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5){:target="_blank"}
+* [Markdown](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
+* [Google Fonts](https://fonts.google.com/){:target="_blank"}
 
 
 ## Built By
 
-* [Joey Brown](https://github.com/joeybrown-ctrl){:target="\_blank"}
+* [Joey Brown](https://github.com/joeybrown-ctrl){:target="_blank"}
 
 
 
